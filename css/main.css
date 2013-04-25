@@ -57,7 +57,7 @@ body {
 
 .content ul > li {
   display: inline-block;
-  padding-left: 32px;
+  padding-left: 64px;
 }
 
 .content ul > li:first-child {
@@ -72,6 +72,7 @@ body {
   display: inline-block;
   height: 48px;
   width: 48px;
+  background-size: auto 48px;
   line-height: 48px;
   vertical-align: middle;
   background-repeat: no-repeat;
@@ -92,6 +93,9 @@ body {
 
 .icon-linkedin {
   background-image: url('../images/linkedin.png');
+  height: 32px;
+  margin: 8px 0;
+  background-size: auto 32px;
   width: 189px;
 }
 
